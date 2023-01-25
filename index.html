@@ -8,21 +8,28 @@
 </head>
 <body>
     <header>
-        <ul class="burger">
-            <li><a href="#">burger 1</a></li>
-            <li><a href="#">burger 2</a></li>
-        </ul>
-        <input type="text" name="search" id="search">
+
+        <div class="burger-menu-container">
+            <ul class="burger">
+                <li><a href="#"><img src="assets/burger.svg" width="16"></a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#"><img src="assets/search.svg" alt="search site" width="16"></a></li>
+            </ul>
+        </div>
+
         <img src="assets/logo.svg" class="logo" height="120">
-        <ul>
-            <li><a href="#">køb abonnement</a></li>
-            <li><a href="#">log ind</a></li>
-            <li><a href="#">profil</a></li>
-        </ul>
+
+        <div class="user-container">
+            <ul>
+                <li><a href="#">log ind</a></li>
+                <li><a href="#"><img src="assets/user.svg" width="16"></a></li>
+            </ul>
+        </div>
+
     </header>
 
     <nav>
-        <ul class="main-nav">
+        <ul class="nav-banner">
             <li><a href="#">nyhedsbreve</a></li>
             <li><a href="#">podcast</a></li>
             <li><a href="#">Køb abonnement</a></li>
@@ -33,11 +40,12 @@
 
     <main>
         <article>
+            <section class="category">
+                <a href="#">abonnement</a>
+                <span class="read-time">læsetid: 7 min</span>
+            </section>
+
             <header>
-                <section class="category">
-                    <a href="#">abonnement</a>
-                    <span class="read-time">læsetid: 7 min</span>
-                </section>
                 <h1>Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det</h1>
                 <p class="subheading">
                     Nogle EU-lande frygter, at Rusland kan bruge Nord Stream 2 som politisk våben mod Europa. 
@@ -64,7 +72,8 @@
                     Ut ac urna sem. Quisque tristique maximus massa, ut facilisis justo imperdiet molestie. Pellentesque ultrices sodales facilisis. 
                     Vestibulum sit amet neque ipsum. Curabitur convallis purus ipsum, sed euismod eros rhoncus sit amet. 
                     Aliquam ullamcorper maximus ante vel lacinia. Nullam vel lorem sagittis, sollicitudin elit ut, dapibus mi. Sed ac interdum felis. 
-                    Duis sem est, posuere vel ex id, molestie pharetra ante.</p>
+                    Duis sem est, posuere vel ex id, molestie pharetra ante.
+                </p>
                 <div class="subscribe" style="display: block; height: 300px; background-color:brown;">
                     <a href="#">Klik her</a>
                 </div>
